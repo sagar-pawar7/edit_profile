@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 20px;
+}
+#edit_page {
+    display: flex;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #a816da, #4d0665);
+    border-radius: 17px;
+}
+.profile {
+    background-color: gainsboro;
+    border-radius: 15px;
+    position: relative;
+    /* flex-grow: 2; */
+    width: 25%;
+}
+.profile .edit_profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.edit_profile .person {
+    height: 120px;
+    width: 130px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.edit_profile .plus {
+    height: 30px;
+    width: 40px;
+    margin: -56px 0px 33px 80px;
+}
+.edit_profile a {
+    text-decoration: none;
+    color: initial;
+}
+.edit_profile p {
+    padding-bottom: 15px;
+}
+.edit_profile button {
+    padding: 3px 10px;
+    margin-top: 20px;
+}
+/* Information */
+.info {
+    /* flex-grow: 8; */
+    width: 70%;
+}
+.info .form {
+    display: flex;
+    justify-content: space-around;
+    margin: 65px 15px;
+}
+.form .text .form-group1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#edit_page .info .form .text form .form-group1 label {
+    margin-right: 57px;
+}
+.form .text .form-group2 {
+    margin-bottom: 20px;
+}
+.form .text .form-group2 label {
+    margin-right: 39px;
+}
+.form .text .form-group3 {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.form .text .form-group3 label {
+    margin-right: 63px;
+}
+.form .text .form-group4 label {
+    margin-right: 10px;
+}
+.msg .form-group1 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.form .msg .form-group1 input {
+    width: 250px;
+    height: 45px;
+}
+.msg .form-group1 label {
+    margin-right: 41px;
+}
+.form .msg .form-group2 input {
+    width: 250px;
+    height: 35px;
+}
+.msg .form-group3 input {
+    width: 250px;
+    height: 35px;
+}
+.msg .form-group2 {
+    margin-bottom: 20px;
+}
+.msg .form-group2 label {
+    margin-right: 35px;
+}
+.msg .form-group3 {
+    margin-left: -2px;
+    margin-bottom: 20px;
+}
+.msg .form-group3 label {
+    margin-right: 19px;
+}
+.msg .form-group4 {
+    margin-bottom: 20px;
+}
+.msg .form-group4 input {
+    height: 20px;
+    width: 17px;
+    margin-right: 5px;
+}
+.form .text input {
+    width: 250px;
+    height: 35px;
+}
+.form .msg button {
+    float: right;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.info .social {
+    display: flex;
+    margin-left: 10px;
+}
+.social .media img{
+    height: 25px;
+    width: 30px;
+    padding: 3px;
+}
+input {
+    outline: none;
+}
+input:hover {
+    outline: #4d0066 2px solid;
+}
